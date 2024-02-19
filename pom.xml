@@ -7,15 +7,27 @@
   <groupId>com.eai</groupId>
   <artifactId>Agence_direct</artifactId>
   <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-  <name>Agence_direct</name>
+    <name>Agence_direct</name>
+
+    <modules>
+        <module>otp_service</module>
+      <module>eureka_server</module>
+      <module>client_service</module>
+      <module>payment_service</module>
+      <module>satisfaction_Service</module>
+      <module>relanche_Service</module>
+      <module>administrateur_Service</module>
+      <module>signature_Service</module>
+      <module>RDV_Service</module>
+    </modules>
 
 
-
-  <properties>
+    <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
     <spring.boot.maven.plugin.version>2.5.7</spring.boot.maven.plugin.version>
     <spring.boot.dependecies.version>2.5.7</spring.boot.dependecies.version>
     <spring-cloud.version>2020.0.3</spring-cloud.version>
@@ -50,6 +62,10 @@
     <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-test</artifactId>
+    </dependency>
+    <dependency>
+       <groupId>org.springframework.cloud</groupId>
+       <artifactId>spring-cloud-starter-openfeign</artifactId>
     </dependency>
   </dependencies>
 
