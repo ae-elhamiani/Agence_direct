@@ -2,12 +2,25 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="administrateur_Service" />
+        <module name="payment_service" />
+        <module name="relanche_Service" />
         <module name="otp_service" />
+        <module name="client_service" />
+        <module name="RDV_Service" />
+        <module name="eureka_server" />
+        <module name="satisfaction_Service" />
+        <module name="signature_Service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka_service" target="17" />
+      <module name="notification_service" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
