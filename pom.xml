@@ -16,11 +16,12 @@
       <module>eureka_server</module>
       <module>client_service</module>
       <module>payment_service</module>
-      <module>satisfaction_Service</module>
-      <module>relanche_Service</module>
-      <module>administrateur_Service</module>
-      <module>signature_Service</module>
-      <module>RDV_Service</module>
+      <module>satisfaction_service</module>
+      <module>relanche_service</module>
+      <module>administrateur_service</module>
+      <module>signature_service</module>
+      <module>rdv_service</module>
+      <module>notification_service</module>
     </modules>
 
 

@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>administrateur_Service</artifactId>
+    <artifactId>relanche_service</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>signature_Service</artifactId>
+    <artifactId>administrateur_service</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
